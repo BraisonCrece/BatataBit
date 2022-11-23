@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="assets/styles/styles.css">
+  <link rel="stylesheet" href="assets/styles/tablet.css" media="(min-width: 930px)" />
   <title>BataBit</title>
 </head>
 
@@ -78,6 +79,38 @@
             <p><b> Actualizado:</b> 20 Noviembre 2022</p>
           </div>
         </div>
+        <div class="main-comision-table">
+          <p class="comision-table--title">Comisiones</p>
+          <div class="comision-table--container">
+            <div class="comision-table--item table__top-left">
+              <p class="comision-table-item--title">Bitrade</p>
+            </div>
+            <div class="comision-table--item table__top-right">
+              <p class="comision-table-item--price">$ 12.96</p>
+            </div>
+            <div class="comision-table--item">
+              <p class="comision-table-item--title">Bitpreco</p>
+            </div>
+            <div class="comision-table--item">
+              <p class="comision-table-item--price">$ 13.07</p>
+            </div>
+            <div class="comision-table--item">
+              <p class="comision-table-item--title">Novadax</p>
+            </div>
+            <div class="comision-table--item">
+              <p class="comision-table-item--price">$ 13.15</p>
+            </div>
+            <div class="comision-table--item table__bottom-left">
+              <p class="comision-table-item--title">Coinext</p>
+            </div>
+            <div class="comision-table--item table__bottom-right">
+              <p class="comision-table-item--price">$ 14.96</p>
+            </div>
+          </div>
+          <div class="comision-table--date">
+            <p><b>Actualizado:</b> 20 Noviembre 2022 </p>
+          </div>
+        </div>
         <div></div>
       </section>
     </section>
@@ -89,40 +122,48 @@
       </div>
       <section class="product-cards--container">
         <article class="product-detail--card">
-          <span class="clock"></span>
-          <p class="product--card-title">
-            Tiempo real
-          </p>
+          <div class="icon-title">
+            <span class="clock"></span>
+            <p class="product--card-title">
+              Tiempo real
+            </p>
+          </div>
           <p class="product--card-body">
             Nuestra API toma información minuto a minuto sobre las tasas que más determinan
             el comportamiento.
           </p>
         </article>
         <article class="product-detail--card">
-          <span class="eye"></span>
-          <p class="product--card-title">
-            No hay tasas escondidas
-          </p>
+          <div class="icon-title">
+            <span class="eye"></span>
+            <p class="product--card-title">
+              No hay tasas escondidas
+            </p>
+          </div>
           <p class="product--card-body">
             Ni en la compra ni en el momento de exit, Batatabit siempre te muestra el costo
             real de lo que estás adquiriendo.
           </p>
         </article>
         <article class="product-detail--card">
-          <span class="dollar"></span>
-          <p class="product--card-title">
-            Compara monedas
-          </p>
+          <div class="icon-title">
+            <span class="dollar"></span>
+            <p class="product--card-title">
+              Compara monedas
+            </p>
+          </div>
           <p class="product--card-body">
             No más rumores, con Batatabit sabrás el valor real de cada moneda en el mercado
             actual.
           </p>
         </article>
         <article class="product-detail--card">
-          <span class="check"></span>
-          <p class="product--card-title">
-            Información confiable
-          </p>
+          <div class="icon-title">
+            <span class="check"></span>
+            <p class="product--card-title">
+              Información confiable
+            </p>
+          </div>
           <p class="product--card-body">
             Nuestras fuentes estás 100% verificadas y actualizadas, para que siempre tengas la información más precisa.
           </p>
@@ -166,7 +207,18 @@
       </section>
     </section>
   </main>
-  <footer></footer>
+  <footer>
+    <section class="left">
+      <ul>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">Crunchbase</a></li>
+        <li><a href="#">Hackernews</a></li>
+      </ul>
+    </section>
+    <section class="right">
+      <img src="assets/images/logo-footer.svg" Logo de Batatabit">
+    </section>
+  </footer>
 </body>
 
 </html>
